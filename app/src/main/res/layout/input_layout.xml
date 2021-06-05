@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/clcinput"
+        android:layout_width="match_parent"
+        android:text="34578"
+        android:textSize="30sp"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/clcoutput"
+        android:layout_width="match_parent"
+        android:text="34578"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
